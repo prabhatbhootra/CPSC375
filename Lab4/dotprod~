@@ -1,0 +1,23 @@
+/* Ted Tierney
+ * Prabhat Bhootra 
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void main(){
+	int n;
+	int dotprod = 0;
+        printf("Enter n value: ");
+	scanf("%d", &n);
+	printf("%d\n", n);
+	x_array = (int *)malloc(sizeof(int)*n);
+	y_array = (int *)malloc(sizeof(int)*n);
+	
+	for (int i = 0; i < n; i++){
+		x_array[i] = 1;
+		y_array[i] = 1;
+		dotprod += x_array[i]*y_array[i]
+	}
+	printf("%d\n", dotprod);
+}

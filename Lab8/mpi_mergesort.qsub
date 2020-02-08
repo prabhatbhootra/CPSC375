@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+#$ -cwd
+#$ -j y
+#$ -S /bin/bash
+#
+
+/opt/openmpi/bin/mpirun $HOME/lab8/mpi_mergesort 10000000
